@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alex Chen - Full-Stack Developer</title>
+    <title>Youssef Abou Eljihad - Software Engineer</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js" type="module"></script>
     <style>
         body {
             font-family: 'Inter', sans-serif;
@@ -68,11 +69,10 @@
     </style>
 </head>
 <body class="antialiased">
-
     <!-- Header -->
     <header class="fixed top-0 left-0 right-0 z-50 glass-card border-b-0">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="#" class="text-xl font-bold tracking-tight">Alex Chen</a>
+            <a href="#" class="text-xl font-bold tracking-tight">Youssef Abou Eljihad</a>
             <nav class="hidden md:flex space-x-8">
                 <a href="#about" class="text-slate-300 hover:text-sky-400 transition-colors">About</a>
                 <a href="#projects" class="text-slate-300 hover:text-sky-400 transition-colors">Projects</a>
@@ -96,22 +96,27 @@
 
         <!-- Hero Section -->
         <section id="about" class="min-h-[80vh] flex flex-col justify-center">
-            <div class="max-w-4xl">
-                <h1 class="text-4xl md:text-6xl font-bold tracking-tighter mb-4">
-                    Alex Chen
-                </h1>
-                <h2 class="text-2xl md:text-4xl font-semibold tracking-tight mb-6 gradient-text">
-                    Full-Stack Developer
-                </h2>
-                <p class="text-slate-400 text-lg md:text-xl max-w-2xl mb-8">
-                    With 4 years of experience, I transform complex business requirements into clean, efficient code, focusing on exceptional user experiences and system performance.
-                </p>
-                <div class="flex items-center space-x-4">
-                    <a href="#contact" class="bg-sky-500 hover:bg-sky-600 text-white font-semibold py-3 px-6 rounded-lg transition-transform transform hover:scale-105">
-                        Get In Touch
-                    </a>
-                    <a href="https://github.com" target="_blank" class="text-slate-300 hover:text-sky-400 p-3 rounded-full transition-colors"><i data-lucide="github"></i></a>
-                    <a href="https://linkedin.com" target="_blank" class="text-slate-300 hover:text-sky-400 p-3 rounded-full transition-colors"><i data-lucide="linkedin"></i></a>
+            <div class="max-w-6xl mx-auto flex items-center justify-between">
+                <div class="max-w-4xl">
+                    <h1 class="text-4xl md:text-6xl font-bold tracking-tighter mb-4">
+                        Youssef Abou Eljihad
+                    </h1>
+                    <h2 class="text-2xl md:text-4xl font-semibold tracking-tight mb-6 gradient-text">
+                        Software Engineer
+                    </h2>
+                    <p class="text-slate-400 text-lg md:text-xl max-w-2xl mb-8">
+                        With 4 years of experience, I transform complex business requirements into clean, efficient code, focusing on exceptional user experiences and system performance.
+                    </p>
+                    <div class="flex items-center space-x-4">
+                        <a href="#contact" class="bg-sky-500 hover:bg-sky-600 text-white font-semibold py-3 px-6 rounded-lg transition-transform transform hover:scale-105">
+                            Get In Touch
+                        </a>
+                        <a href="https://github.com" target="_blank" class="text-slate-300 hover:text-sky-400 p-3 rounded-full transition-colors"><i data-lucide="github"></i></a>
+                        <a href="https://linkedin.com" target="_blank" class="text-slate-300 hover:text-sky-400 p-3 rounded-full transition-colors"><i data-lucide="linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="hidden lg:block flex items-center">
+                    <dotlottie-wc src="https://lottie.host/19c9c8c4-486f-4f24-b616-b1f3b62c184b/CUH7pTkkOr.lottie" style="width: 400px;height: 400px" speed="1" autoplay loop></dotlottie-wc>
                 </div>
             </div>
         </section>
@@ -119,161 +124,221 @@
         <!-- Projects Section -->
         <section id="projects" class="py-20">
             <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center tracking-tight">Projects</h2>
-            <div class="glass-card rounded-2xl overflow-hidden shadow-2xl transition-all duration-300 hover:shadow-sky-500/20 hover:border-sky-500/50">
-                <div class="p-8 md:p-12">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-                        <div>
-                            <h3 class="text-2xl md:text-3xl font-bold mb-2 gradient-text">TaskFlow - Team Productivity Platform</h3>
-                            <p class="text-slate-400 mb-6">A comprehensive project management tool that increased team productivity by 35% through intelligent task prioritization and real-time collaboration features.</p>
-                            
-                            <h4 class="font-semibold text-lg mb-3 text-slate-200">Key Features:</h4>
-                            <ul class="space-y-3 text-slate-400 mb-6">
-                                <li class="flex items-start"><i data-lucide="users-2" class="w-5 h-5 mr-3 mt-1 text-sky-400 shrink-0"></i><span>Real-time collaboration with <strong>200+ concurrent users</strong>.</span></li>
-                                <li class="flex items-start"><i data-lucide="cpu" class="w-5 h-5 mr-3 mt-1 text-sky-400 shrink-0"></i><span>AI-powered task prioritization reducing planning time by <strong>50%</strong>.</span></li>
-                                <li class="flex items-start"><i data-lucide="link" class="w-5 h-5 mr-3 mt-1 text-sky-400 shrink-0"></i><span>Integration with <strong>15+ popular development tools</strong>.</span></li>
-                            </ul>
-
-                            <h4 class="font-semibold text-lg mb-3 text-slate-200">Challenge Overcome:</h4>
-                            <p class="text-slate-400 mb-6">Implemented an efficient real-time synchronization architecture using WebSockets, handling over <strong>1000+ concurrent connections</strong> while maintaining sub-100ms response times for a seamless user experience.</p>
-
-                            <!-- Technology Icons -->
-                            <h4 class="font-semibold text-lg mb-3 text-slate-200">Technologies Used:</h4>
-                            <div class="flex flex-wrap gap-4 items-center mb-6">
+            
+            <!-- Projects Grid - 3 in one row -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+                <!-- Project 1 -->
+                <div class="glass-card rounded-2xl p-8 transition-all duration-300 hover:border-slate-500/50 flex flex-col">
+                    <h3 class="text-xl font-bold mb-2 gradient-text">TaskFlow Platform</h3>
+                    <p class="text-slate-400 mb-4 flex-grow">A comprehensive project management tool that increased team productivity by 35% through intelligent task prioritization and real-time collaboration features.</p>
+                                         <div class="flex flex-wrap gap-3 items-center mb-4">
                                 <div class="tech-icon-container">
-                                    <svg class="w-10 h-10 text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="2"></circle><path d="M12 2v2m0 16v2m8.07-18.07l-1.42 1.42M5.35 18.65l-1.42 1.42m14.14 0l-1.42-1.42M5.35 5.35l-1.42-1.42m16.14 12.72l-1.42-1.42M3.93 12H2m20 0h-1.93"></path><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(60 12 12)"></ellipse><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(120 12 12)"></ellipse></svg>
+                             <i data-lucide="atom" class="w-6 h-6 text-sky-400"></i>
                                     <span class="tech-icon-tooltip">React</span>
                                 </div>
                                 <div class="tech-icon-container">
-                                    <svg class="w-10 h-10 text-green-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L3 7v10l9 5 9-5V7l-9-5zm4.6 12.9L12 17.5l-4.6-2.6.1-5.2L12 7.1l4.5 2.6.1 5.2z"></path></svg>
+                             <i data-lucide="circle-dot" class="w-6 h-6 text-green-400"></i>
                                     <span class="tech-icon-tooltip">Node.js</span>
                                 </div>
                                 <div class="tech-icon-container">
-                                    <svg class="w-10 h-10 text-indigo-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14.5c-1.5 0-2.5-1-2.5-2.5s1-2.5 2.5-2.5c1.5 0 2.5 1 2.5 2.5s-1 2.5-2.5 2.5zm5-5.5H14v-2h2v2zm-6-2h2v2h-2v-2zm-2 2H8v-2h2v2z"></path></svg>
+                             <i data-lucide="database" class="w-6 h-6 text-indigo-400"></i>
                                     <span class="tech-icon-tooltip">PostgreSQL</span>
                                 </div>
-                                <div class="tech-icon-container">
-                                    <svg class="w-10 h-10 text-slate-300" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 2.05v3.03c3.39.49 6 3.39 6 6.92 0 .9-.18 1.75-.5 2.54l2.1 1.21c.52-1.16.8-2.45.8-3.75 0-5.52-4.48-10-10-10-1.3 0-2.59.28-3.75.8l1.21 2.1c.79-.32 1.64-.5 2.54-.5zM3.93 5.14L5.14 3.93c-1.16.52-2.19 1.26-3.03 2.22l1.42 1.42C4.1 6.95 4.7 6.1 5.14 5.14zM12 20c-4.41 0-8-3.59-8-8 0-1.85.63-3.54 1.69-4.86L4.22 5.67C2.86 7.27 2 9.5 2 12c0 5.52 4.48 10 10 10 2.5 0 4.73-1.14 6.33-2.86l-1.47-1.47C15.54 19.37 13.85 20 12 20z"></path></svg>
-                                    <span class="tech-icon-tooltip">Socket.io</span>
                                 </div>
-                                <div class="tech-icon-container">
-                                    <svg class="w-10 h-10 text-orange-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"></path></svg>
-                                    <span class="tech-icon-tooltip">AWS</span>
-                                </div>
-                            </div>
-
-
-                            <div class="flex space-x-4 mt-8">
-                                <a href="#" class="bg-slate-700 hover:bg-slate-600 text-white font-medium py-2 px-5 rounded-lg transition-colors flex items-center">
-                                    <i data-lucide="github" class="w-4 h-4 mr-2"></i> View Code
-                                </a>
-                                <a href="#" class="bg-sky-500/20 hover:bg-sky-500/30 text-sky-300 font-medium py-2 px-5 rounded-lg transition-colors flex items-center">
-                                    <i data-lucide="external-link" class="w-4 h-4 mr-2"></i> Live Demo
-                                </a>
-                            </div>
-                        </div>
-                        <div class="hidden md:block">
-                            <img src="https://placehold.co/600x400/0a0a0a/38bdf8?text=TaskFlow+UI" alt="TaskFlow application screenshot" class="rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
-                        </div>
+                    <div class="flex space-x-3 mt-auto">
+                        <a href="#" class="bg-slate-700 hover:bg-slate-600 text-white font-medium py-2 px-4 rounded-lg transition-colors flex items-center text-sm">
+                            <i data-lucide="github" class="w-4 h-4 mr-2"></i> Code
+                        </a>
+                        <a href="#" class="bg-sky-500/20 hover:bg-sky-500/30 text-sky-300 font-medium py-2 px-4 rounded-lg transition-colors flex items-center text-sm">
+                            <i data-lucide="external-link" class="w-4 h-4 mr-2"></i> Demo
+                        </a>
                     </div>
                 </div>
-            </div>
-             <!-- Other projects -->
-            <div class="grid md:grid-cols-2 gap-8 mt-12">
+
+                <!-- Project 2 -->
                 <div class="glass-card rounded-2xl p-8 transition-all duration-300 hover:border-slate-500/50 flex flex-col">
                     <h3 class="text-xl font-bold mb-2">E-Commerce API</h3>
                     <p class="text-slate-400 mb-4 flex-grow">A robust RESTful API for an e-commerce platform with secure authentication and payment processing.</p>
-                    <div class="flex flex-wrap gap-4 items-center">
+                                         <div class="flex flex-wrap gap-3 items-center mb-4">
                          <div class="tech-icon-container">
-                            <svg class="w-8 h-8 text-green-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L3 7v10l9 5 9-5V7l-9-5zm4.6 12.9L12 17.5l-4.6-2.6.1-5.2L12 7.1l4.5 2.6.1 5.2z"></path></svg>
+                             <i data-lucide="circle-dot" class="w-6 h-6 text-green-400"></i>
                             <span class="tech-icon-tooltip">Node.js</span>
                         </div>
                         <div class="tech-icon-container">
-                           <svg class="w-8 h-8 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 21h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+                            <i data-lucide="code" class="w-6 h-6 text-slate-400"></i>
                            <span class="tech-icon-tooltip">Express.js</span>
                         </div>
                         <div class="tech-icon-container">
-                            <svg class="w-8 h-8 text-indigo-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14.5c-1.5 0-2.5-1-2.5-2.5s1-2.5 2.5-2.5c1.5 0 2.5 1 2.5 2.5s-1 2.5-2.5 2.5zm5-5.5H14v-2h2v2zm-6-2h2v2h-2v-2zm-2 2H8v-2h2v2z"></path></svg>
-                            <span class="tech-icon-tooltip">PostgreSQL</span>
-                        </div>
-                        <div class="tech-icon-container">
-                            <svg class="w-8 h-8 text-sky-500" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22.45 5.55c-.34-.48-.79-.88-1.32-1.16-.53-.28-1.12-.42-1.75-.42H4.62c-.63 0-1.22.14-1.75.42-.53.28-.98.68-1.32 1.16C1.21 6.03 1 6.6 1 7.22v9.56c0 .62.21 1.19.55 1.67.34.48.79.88 1.32 1.16.53.28 1.12.42 1.75.42h14.76c.63 0 1.22-.14 1.75-.42.53-.28.98-.68 1.32-1.16.34-.48.55-1.05.55-1.67V7.22c0-.62-.21-1.19-.55-1.67zM7 17H5v-7h2v7zm-2-8a1 1 0 110-2 1 1 0 010 2zm14 8h-2v-7h2v7zm-2-8a1 1 0 110-2 1 1 0 010 2zm-3-1h-2v-2h2v2zm-3 0h-2v-2h2v2zm-3 0H8v-2h2v2z"></path></svg>
+                             <i data-lucide="package" class="w-6 h-6 text-sky-500"></i>
                             <span class="tech-icon-tooltip">Docker</span>
                         </div>
+                     </div>
+                    <div class="flex space-x-3 mt-auto">
+                        <a href="#" class="bg-slate-700 hover:bg-slate-600 text-white font-medium py-2 px-4 rounded-lg transition-colors flex items-center text-sm">
+                            <i data-lucide="github" class="w-4 h-4 mr-2"></i> Code
+                        </a>
+                        <a href="#" class="bg-sky-500/20 hover:bg-sky-500/30 text-sky-300 font-medium py-2 px-4 rounded-lg transition-colors flex items-center text-sm">
+                            <i data-lucide="external-link" class="w-4 h-4 mr-2"></i> Demo
+                        </a>
                     </div>
                 </div>
+
+                <!-- Project 3 -->
                 <div class="glass-card rounded-2xl p-8 transition-all duration-300 hover:border-slate-500/50 flex flex-col">
                     <h3 class="text-xl font-bold mb-2">Data Analytics Dashboard</h3>
                     <p class="text-slate-400 mb-4 flex-grow">A dynamic dashboard for visualizing complex datasets, built with Next.js for server-side rendering.</p>
-                     <div class="flex flex-wrap gap-4 items-center">
+                                         <div class="flex flex-wrap gap-3 items-center mb-4">
                         <div class="tech-icon-container">
-                            <svg class="w-8 h-8 text-slate-300" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L1 9l11 7 11-7L12 2zm0 17.5L3.5 13 12 8.5 20.5 13 12 19.5z"></path></svg>
+                             <i data-lucide="layers" class="w-6 h-6 text-slate-300"></i>
                             <span class="tech-icon-tooltip">Next.js</span>
                         </div>
                         <div class="tech-icon-container">
-                            <svg class="w-8 h-8 text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="2"></circle><path d="M12 2v2m0 16v2m8.07-18.07l-1.42 1.42M5.35 18.65l-1.42 1.42m14.14 0l-1.42-1.42M5.35 5.35l-1.42-1.42m16.14 12.72l-1.42-1.42M3.93 12H2m20 0h-1.93"></path><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(60 12 12)"></ellipse><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(120 12 12)"></ellipse></svg>
+                             <i data-lucide="atom" class="w-6 h-6 text-sky-400"></i>
                             <span class="tech-icon-tooltip">React</span>
                         </div>
                         <div class="tech-icon-container">
-                            <svg class="w-8 h-8 text-yellow-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 15.5c-2.8 0-5.4-1.2-7.2-3.1C6.6 10.6 9.2 9.4 12 9.4s5.4 1.2 7.2 3.1c-1.8 1.9-4.4 3-7.2 3zm0-13C6.4 2.5 2.4 6.3 2.4 11c0 4.7 4 8.5 9.6 8.5 5.6 0 9.6-3.8 9.6-8.5C21.6 6.3 17.6 2.5 12 2.5z"></path></svg>
+                             <i data-lucide="code" class="w-6 h-6 text-yellow-400"></i>
                             <span class="tech-icon-tooltip">Python</span>
                         </div>
-                         <div class="tech-icon-container">
-                            <svg class="w-8 h-8 text-green-600" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm-1.2 18H8.4V8.4h2.4v9.6zm4.8 0h-2.4V6h2.4v12z"></path></svg>
-                            <span class="tech-icon-tooltip">Django</span>
                         </div>
+                    <div class="flex space-x-3 mt-auto">
+                        <a href="#" class="bg-slate-700 hover:bg-slate-600 text-white font-medium py-2 px-4 rounded-lg transition-colors flex items-center text-sm">
+                            <i data-lucide="github" class="w-4 h-4 mr-2"></i> Code
+                        </a>
+                        <a href="#" class="bg-sky-500/20 hover:bg-sky-500/30 text-sky-300 font-medium py-2 px-4 rounded-lg transition-colors flex items-center text-sm">
+                            <i data-lucide="external-link" class="w-4 h-4 mr-2"></i> Demo
+                        </a>
                     </div>
                 </div>
+            </div>
+
+            <!-- Explore More Projects Button -->
+            <div class="text-center">
+                <a href="#" class="inline-flex items-center bg-slate-700 hover:bg-slate-600 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105">
+                    <i data-lucide="folder-open" class="w-5 h-5 mr-2"></i>
+                    Explore More Projects
+                </a>
             </div>
         </section>
 
         <!-- Skills Section -->
         <section id="skills" class="py-20">
             <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center tracking-tight">Technical Skills</h2>
-            <div class="max-w-4xl mx-auto space-y-10">
+            <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
                 <!-- Frontend -->
-                <div>
-                    <h3 class="text-xl font-semibold mb-6 text-sky-400 text-center md:text-left">Frontend</h3>
-                    <div class="flex flex-wrap justify-center md:justify-start gap-6">
-                        <div class="tech-icon-container"><svg class="w-12 h-12 text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="2"></circle><path d="M12 2v2m0 16v2m8.07-18.07l-1.42 1.42M5.35 18.65l-1.42 1.42m14.14 0l-1.42-1.42M5.35 5.35l-1.42-1.42m16.14 12.72l-1.42-1.42M3.93 12H2m20 0h-1.93"></path><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(60 12 12)"></ellipse><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(120 12 12)"></ellipse></svg><span class="tech-icon-tooltip">React</span></div>
-                        <div class="tech-icon-container"><svg class="w-12 h-12 text-slate-300" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L1 9l11 7 11-7L12 2zm0 17.5L3.5 13 12 8.5 20.5 13 12 19.5z"></path></svg><span class="tech-icon-tooltip">Next.js</span></div>
-                        <div class="tech-icon-container"><svg class="w-12 h-12 text-yellow-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M21.3 2.7H2.7C1.2 2.7 0 3.9 0 5.4v13.2c0 1.5 1.2 2.7 2.7 2.7h18.6c1.5 0 2.7-1.2 2.7-2.7V5.4c0-1.5-1.2-2.7-2.7-2.7zM8.1 16.2H5.4V8.1h2.7v8.1zm4.7-4.1c0-1.4-.9-2.4-2.4-2.4-1.5 0-2.4.9-2.4 2.4s.9 2.4 2.4 2.4c1.5.1 2.4-1 2.4-2.4zm4.1 4.1h-2.7V9.5c0-.8-.3-1.2-.9-1.2s-.9.4-.9 1.2v5.4h-2.7V8.1h2.7v1c.5-.8 1.4-1.3 2.3-1.3 1.8 0 2.9 1.4 2.9 3.5v4.9z"/></svg><span class="tech-icon-tooltip">JavaScript</span></div>
-                        <div class="tech-icon-container"><svg class="w-12 h-12 text-sky-600" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M21.3 2.7H2.7C1.2 2.7 0 3.9 0 5.4v13.2c0 1.5 1.2 2.7 2.7 2.7h18.6c1.5 0 2.7-1.2 2.7-2.7V5.4c0-1.5-1.2-2.7-2.7-2.7zM12 16.2h-2.7v-1.8H12V8.1h2.7v6.3H12v1.8zm-2.7-5.4h2.7V9.5h-2.7v1.3z"/></svg><span class="tech-icon-tooltip">TypeScript</span></div>
-                        <div class="tech-icon-container"><svg class="w-12 h-12 text-orange-600" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M2 21.3h19.8L12 2.7 2 21.3zm3.5-1.8L12 7.1l6.5 12.4H5.5zM12 12.6l-2.4 4.5h4.8l-2.4-4.5z"/></svg><span class="tech-icon-tooltip">HTML5</span></div>
-                        <div class="tech-icon-container"><svg class="w-12 h-12 text-blue-500" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M2 21.3h19.8L12 2.7 2 21.3zm17.5-1.8L12 7.1 4.5 19.5h15zM8.1 12.6h7.8l-1-1.8H9.1l-1 1.8zm2.4 3.6l1.5-2.7 1.5 2.7H10.5z"/></svg><span class="tech-icon-tooltip">CSS3</span></div>
-                        <div class="tech-icon-container"><svg class="w-12 h-12 text-cyan-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2zm0 3a7 7 0 00-7 7c0 2.21 1.013 4.189 2.6 5.513.29.24.4.65.24.99s-.5.59-.84.5h-1c-.34 0-.65-.18-.84-.47A9.954 9.954 0 012 12a10 10 0 0110-10 10 10 0 0110 10c0 3.314-1.613 6.25-4.084 8.084-.23.17-.53.21-.81.1-.28-.1-.49-.36-.5-.66l-.08-1.5c-.01-.3.1-.59.34-.78A6.96 6.96 0 0019 12a7 7 0 00-7-7z"/></svg><span class="tech-icon-tooltip">Tailwind CSS</span></div>
+                <div class="bg-slate-900/60 rounded-2xl p-8 shadow-lg flex flex-col items-center">
+                    <h3 class="text-xl font-semibold mb-2 text-sky-400">Frontend</h3>
+                    <p class="text-slate-400 text-center mb-6 text-sm">Building beautiful, interactive UIs with modern frameworks and tools.</p>
+                    <div class="flex flex-wrap justify-center gap-5">
+                        <div class="tech-icon-container group">
+                            <i data-lucide="atom" class="w-12 h-12 text-sky-400 group-hover:scale-110 transition-transform"></i>
+                            <span class="tech-icon-tooltip">React</span>
+                        </div>
+                        <div class="tech-icon-container group">
+                            <i data-lucide="layers" class="w-12 h-12 text-slate-300 group-hover:scale-110 transition-transform"></i>
+                            <span class="tech-icon-tooltip">Next.js</span>
+                        </div>
+                        <div class="tech-icon-container group">
+                            <i data-lucide="code" class="w-12 h-12 text-yellow-400 group-hover:scale-110 transition-transform"></i>
+                            <span class="tech-icon-tooltip">JavaScript</span>
+                        </div>
+                        <div class="tech-icon-container group">
+                            <i data-lucide="file-code" class="w-12 h-12 text-sky-600 group-hover:scale-110 transition-transform"></i>
+                            <span class="tech-icon-tooltip">TypeScript</span>
+                        </div>
+                        <div class="tech-icon-container group">
+                            <i data-lucide="file-text" class="w-12 h-12 text-orange-600 group-hover:scale-110 transition-transform"></i>
+                            <span class="tech-icon-tooltip">HTML5</span>
+                        </div>
+                        <div class="tech-icon-container group">
+                            <i data-lucide="palette" class="w-12 h-12 text-blue-500 group-hover:scale-110 transition-transform"></i>
+                            <span class="tech-icon-tooltip">CSS3</span>
+                        </div>
+                        <div class="tech-icon-container group">
+                            <i data-lucide="sparkles" class="w-12 h-12 text-cyan-400 group-hover:scale-110 transition-transform"></i>
+                            <span class="tech-icon-tooltip">Tailwind CSS</span>
+                        </div>
                     </div>
                 </div>
                 <!-- Backend -->
-                <div>
-                    <h3 class="text-xl font-semibold mb-6 text-sky-400 text-center md:text-left">Backend</h3>
-                    <div class="flex flex-wrap justify-center md:justify-start gap-6">
-                        <div class="tech-icon-container"><svg class="w-12 h-12 text-green-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L3 7v10l9 5 9-5V7l-9-5zm4.6 12.9L12 17.5l-4.6-2.6.1-5.2L12 7.1l4.5 2.6.1 5.2z"></path></svg><span class="tech-icon-tooltip">Node.js</span></div>
-                        <div class="tech-icon-container"><svg class="w-12 h-12 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 21h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg><span class="tech-icon-tooltip">Express.js</span></div>
-                        <div class="tech-icon-container"><svg class="w-12 h-12 text-yellow-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 15.5c-2.8 0-5.4-1.2-7.2-3.1C6.6 10.6 9.2 9.4 12 9.4s5.4 1.2 7.2 3.1c-1.8 1.9-4.4 3-7.2 3zm0-13C6.4 2.5 2.4 6.3 2.4 11c0 4.7 4 8.5 9.6 8.5 5.6 0 9.6-3.8 9.6-8.5C21.6 6.3 17.6 2.5 12 2.5z"></path></svg><span class="tech-icon-tooltip">Python</span></div>
-                        <div class="tech-icon-container"><svg class="w-12 h-12 text-green-600" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm-1.2 18H8.4V8.4h2.4v9.6zm4.8 0h-2.4V6h2.4v12z"></path></svg><span class="tech-icon-tooltip">Django</span></div>
-                        <div class="tech-icon-container"><svg class="w-12 h-12 text-slate-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15 4H9v2h6V4zm-2 16h-2v-2h2v2zm6-10h-2v2h2v-2zm-6-4h-2v2h2V6zM9 18H7v-2h2v2zm12-2h-2v2h2v-2zM9 10H7v2h2v-2zM5 14H3v-2h2v2zm14 0h-2v2h2v-2zm-8-8H9v2h2V6zM5 6H3v2h2V6zm14 12h-2v-2h2v2zm-4-8h-2v2h2v-2zm-4 0H9v2h2v-2z"/></svg><span class="tech-icon-tooltip">RESTful APIs</span></div>
+                <div class="bg-slate-900/60 rounded-2xl p-8 shadow-lg flex flex-col items-center">
+                    <h3 class="text-xl font-semibold mb-2 text-sky-400">Backend</h3>
+                    <p class="text-slate-400 text-center mb-6 text-sm">Designing scalable APIs and robust server-side logic.</p>
+                    <div class="flex flex-wrap justify-center gap-5">
+                        <div class="tech-icon-container group">
+                            <i data-lucide="circle-dot" class="w-12 h-12 text-green-400 group-hover:scale-110 transition-transform"></i>
+                            <span class="tech-icon-tooltip">Node.js</span>
+                        </div>
+                        <div class="tech-icon-container group">
+                            <i data-lucide="code" class="w-12 h-12 text-slate-400 group-hover:scale-110 transition-transform"></i>
+                            <span class="tech-icon-tooltip">Express.js</span>
+                        </div>
+                        <div class="tech-icon-container group">
+                            <i data-lucide="code" class="w-12 h-12 text-yellow-400 group-hover:scale-110 transition-transform"></i>
+                            <span class="tech-icon-tooltip">Python</span>
+                        </div>
+                        <div class="tech-icon-container group">
+                            <i data-lucide="server" class="w-12 h-12 text-green-600 group-hover:scale-110 transition-transform"></i>
+                            <span class="tech-icon-tooltip">Django</span>
+                        </div>
+                        <div class="tech-icon-container group">
+                            <i data-lucide="globe" class="w-12 h-12 text-slate-400 group-hover:scale-110 transition-transform"></i>
+                            <span class="tech-icon-tooltip">RESTful APIs</span>
+                        </div>
                     </div>
                 </div>
                 <!-- Databases -->
-                <div>
-                    <h3 class="text-xl font-semibold mb-6 text-sky-400 text-center md:text-left">Databases</h3>
-                    <div class="flex flex-wrap justify-center md:justify-start gap-6">
-                        <div class="tech-icon-container"><svg class="w-12 h-12 text-indigo-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14.5c-1.5 0-2.5-1-2.5-2.5s1-2.5 2.5-2.5c1.5 0 2.5 1 2.5 2.5s-1 2.5-2.5 2.5zm5-5.5H14v-2h2v2zm-6-2h2v2h-2v-2zm-2 2H8v-2h2v2z"></path></svg><span class="tech-icon-tooltip">PostgreSQL</span></div>
-                        <div class="tech-icon-container"><svg class="w-12 h-12 text-green-500" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm2.25 13.5c-1.5 0-2.25-1.12-2.25-2.25s.75-2.25 2.25-2.25c1.12 0 2.25.75 2.25 2.25S15.37 15.5 14.25 15.5zm-4.5 0c-1.5 0-2.25-1.12-2.25-2.25s.75-2.25 2.25-2.25c1.12 0 2.25.75 2.25 2.25S11.62 15.5 9.75 15.5z"/></svg><span class="tech-icon-tooltip">MongoDB</span></div>
-                        <div class="tech-icon-container"><svg class="w-12 h-12 text-red-600" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1.5 14h-2v-4h2v4zm4 0h-2v-4h2v4zm0-6h-6V8h6v2z"/></svg><span class="tech-icon-tooltip">Redis</span></div>
-                        <div class="tech-icon-container"><svg class="w-12 h-12 text-slate-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-12h2v8h-2v-8z"/></svg><span class="tech-icon-tooltip">SQL</span></div>
+                <div class="bg-slate-900/60 rounded-2xl p-8 shadow-lg flex flex-col items-center">
+                    <h3 class="text-xl font-semibold mb-2 text-sky-400">Databases</h3>
+                    <p class="text-slate-400 text-center mb-6 text-sm">Managing data with modern relational and NoSQL databases.</p>
+                    <div class="flex flex-wrap justify-center gap-5">
+                        <div class="tech-icon-container group">
+                            <i data-lucide="database" class="w-12 h-12 text-indigo-400 group-hover:scale-110 transition-transform"></i>
+                            <span class="tech-icon-tooltip">PostgreSQL</span>
+                        </div>
+                        <div class="tech-icon-container group">
+                            <i data-lucide="database" class="w-12 h-12 text-green-500 group-hover:scale-110 transition-transform"></i>
+                            <span class="tech-icon-tooltip">MongoDB</span>
+                        </div>
+                        <div class="tech-icon-container group">
+                            <i data-lucide="database" class="w-12 h-12 text-red-600 group-hover:scale-110 transition-transform"></i>
+                            <span class="tech-icon-tooltip">Redis</span>
+                        </div>
+                        <div class="tech-icon-container group">
+                            <i data-lucide="database" class="w-12 h-12 text-slate-400 group-hover:scale-110 transition-transform"></i>
+                            <span class="tech-icon-tooltip">SQL</span>
+                        </div>
                     </div>
                 </div>
                 <!-- Cloud & DevOps -->
-                <div>
-                    <h3 class="text-xl font-semibold mb-6 text-sky-400 text-center md:text-left">Cloud & DevOps</h3>
-                    <div class="flex flex-wrap justify-center md:justify-start gap-6">
-                        <div class="tech-icon-container"><svg class="w-12 h-12 text-orange-400" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"></path></svg><span class="tech-icon-tooltip">AWS</span></div>
-                        <div class="tech-icon-container"><svg class="w-12 h-12 text-sky-500" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22.45 5.55c-.34-.48-.79-.88-1.32-1.16-.53-.28-1.12-.42-1.75-.42H4.62c-.63 0-1.22.14-1.75.42-.53.28-.98.68-1.32 1.16C1.21 6.03 1 6.6 1 7.22v9.56c0 .62.21 1.19.55 1.67.34.48.79.88 1.32 1.16.53.28 1.12.42 1.75.42h14.76c.63 0 1.22-.14 1.75-.42.53-.28.98-.68 1.32-1.16.34-.48.55-1.05.55-1.67V7.22c0-.62-.21-1.19-.55-1.67zM7 17H5v-7h2v7zm-2-8a1 1 0 110-2 1 1 0 010 2zm14 8h-2v-7h2v7zm-2-8a1 1 0 110-2 1 1 0 010 2zm-3-1h-2v-2h2v2zm-3 0h-2v-2h2v2zm-3 0H8v-2h2v2z"></path></svg><span class="tech-icon-tooltip">Docker</span></div>
-                        <div class="tech-icon-container"><svg class="w-12 h-12 text-green-500" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1.5 15h-2V7h2v10zm4 0h-2V7h2v10z"/></svg><span class="tech-icon-tooltip">Nginx</span></div>
-                        <div class="tech-icon-container"><svg class="w-12 h-12 text-red-500" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1.09 15.18l-3.6-3.6c-.39-.39-.39-1.02 0-1.41l3.6-3.6c.39-.39 1.02-.39 1.41 0l3.6 3.6c.39.39.39 1.02 0 1.41l-3.6 3.6c-.39.39-1.03.39-1.41 0z"/></svg><span class="tech-icon-tooltip">Git</span></div>
-                        <div class="tech-icon-container"><svg class="w-12 h-12 text-sky-500" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21.58 9.58l-7.5-7.5c-.78-.78-2.05-.78-2.83 0l-7.5 7.5c-.78.78-.78 2.05 0 2.83l7.5 7.5c.78.78 2.05.78 2.83 0l7.5-7.5c.78-.78.78-2.05 0-2.83zM12 18c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z"/></svg><span class="tech-icon-tooltip">Webpack</span></div>
-                        <div class="tech-icon-container"><svg class="w-12 h-12 text-red-700" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5c-2.49 0-4.5-2.01-4.5-4.5S7.51 7.5 10 7.5s4.5 2.01 4.5 4.5-2.01 4.5-4.5 4.5zm6-4.5c0 2.49-2.01 4.5-4.5 4.5v-9c2.49 0 4.5 2.01 4.5 4.5z"/></svg><span class="tech-icon-tooltip">Jest</span></div>
+                <div class="bg-slate-900/60 rounded-2xl p-8 shadow-lg flex flex-col items-center">
+                    <h3 class="text-xl font-semibold mb-2 text-sky-400">Cloud & DevOps</h3>
+                    <p class="text-slate-400 text-center mb-6 text-sm">Deploying, automating, and scaling modern applications.</p>
+                    <div class="flex flex-wrap justify-center gap-5">
+                        <div class="tech-icon-container group">
+                            <i data-lucide="cloud" class="w-12 h-12 text-orange-400 group-hover:scale-110 transition-transform"></i>
+                            <span class="tech-icon-tooltip">AWS</span>
+                        </div>
+                        <div class="tech-icon-container group">
+                            <i data-lucide="package" class="w-12 h-12 text-sky-500 group-hover:scale-110 transition-transform"></i>
+                            <span class="tech-icon-tooltip">Docker</span>
+                        </div>
+                        <div class="tech-icon-container group">
+                            <i data-lucide="server" class="w-12 h-12 text-green-500 group-hover:scale-110 transition-transform"></i>
+                            <span class="tech-icon-tooltip">Nginx</span>
+                        </div>
+                        <div class="tech-icon-container group">
+                            <i data-lucide="git-branch" class="w-12 h-12 text-red-500 group-hover:scale-110 transition-transform"></i>
+                            <span class="tech-icon-tooltip">Git</span>
+                        </div>
+                        <div class="tech-icon-container group">
+                            <i data-lucide="settings" class="w-12 h-12 text-sky-500 group-hover:scale-110 transition-transform"></i>
+                            <span class="tech-icon-tooltip">Webpack</span>
+                        </div>
+                        <div class="tech-icon-container group">
+                            <i data-lucide="test-tube" class="w-12 h-12 text-red-700 group-hover:scale-110 transition-transform"></i>
+                            <span class="tech-icon-tooltip">Jest</span>
+                        </div>
                     </div>
                 </div>
             </div>
